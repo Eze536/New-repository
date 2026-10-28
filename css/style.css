@@ -101,7 +101,30 @@ body::after{
 }
 html{
     scroll-behavior: smooth;
-}   
+}
+@media screen and (max-width: 600px){
+    .your-existing-home-class{
+        min-height: auto;
+        padding: 30px 15px;
+    }
+    .your-existing-home-class img{
+        max-width: 100%;
+        height: auto;
+    }
+    .your-existing-product-class{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        padding: 10px;
+    }
+    .your-existing-product-class img{
+        width: 100px;
+        height: auto;
+        object-fit: contain;
+    }
+    
+}
+
 
 
 
