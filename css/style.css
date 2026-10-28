@@ -103,26 +103,38 @@ html{
     scroll-behavior: smooth;
 }
 @media screen and (max-width: 600px){
-    .your-existing-home-class{
+    .can{
         min-height: auto;
-        padding: 30px 15px;
+        padding: 20px 15px;
+        box-sizing: border-box;
+        width: 100%;
     }
-    .your-existing-home-class img{
+    .my-img{
         max-width: 100%;
         height: auto;
+        display: block;
+        margin: 15px auto;
     }
-    .your-existing-product-class{
+    .can-text{
+        width: 100%;
+    }
+    .product{
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 10px;
         padding: 10px;
     }
-    .your-existing-product-class img{
+    .product .bags img{
         width: 100px;
+        max-width: 100%;
         height: auto;
         object-fit: contain;
     }
+    .product .bags{
+        min-width: 0;
+    }
     
+
 }
 
 
