@@ -110,10 +110,11 @@ html{
         width: 100%;
     }
     .my-img{
-        max-width: 100%;
+        max-width: 300px;
         height: auto;
         display: block;
-        margin: 15px auto;
+        margin: 20px auto;
+        width: 70%;
     }
     .can-text{
         width: 100%;
@@ -121,8 +122,10 @@ html{
     .product{
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 10px;
+        gap: 12px;
         padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
     }
     .product .bags img{
         width: 100px;
@@ -133,8 +136,26 @@ html{
     .product .bags{
         min-width: 0;
     }
-    
-
+    .categories{
+        width: 100%;
+            box-sizing: border-box;
+        }
+        .pic{
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px;
+        }
+        .mi-photo{
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .bag img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
 }
 
 
