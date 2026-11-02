@@ -198,5 +198,14 @@ html{
         width: 100%;
         height: auto;
     }
+    #product{
+        background: white;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    body::after{
+        content: none;
+    }
 }
     
