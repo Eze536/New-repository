@@ -199,13 +199,14 @@ html{
         height: auto;
     }
     #product{
-        background: red !important;
-        width: 100vw;
-        margin-left: calc(50% - 50vw);
-        
+        background: white !important;
+        width: 100%;
+        margin-left: -25px;
+        margin-right: -25px;
+        max-width: none;
         box-sizing: border-box;
         height: auto;
-        padding: 20px 14px 30px;
+        padding: 20px 25px 30px;
     }
     body::after{
         content: none;
