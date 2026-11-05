@@ -212,7 +212,8 @@ html{
     #product{
         background: white;
         width: 100vw;
-        margin-left: calc(50% - 50vw);
+        position: relative;
+        transform: translateX(-50%);
         
         
         box-sizing: border-box;
