@@ -151,7 +151,7 @@ html{
         display: flex;
         flex-direction: column;
         
-        padding: 15px;
+        padding: 15px 0;
         width: 100%;
         box-sizing: border-box;
     }
@@ -165,10 +165,10 @@ html{
     } 
     .my-img{
         width: 100%;
-        max-width: 100%;
+        max-width: none;
         height: auto;
         display: block;
-        margin: 20px auto;
+        margin: 20px 0;
         object-fit: contain;
         
     } 
