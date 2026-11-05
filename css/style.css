@@ -164,10 +164,11 @@ html{
     .my-img{
         width: 100%;
         max-width: 100%;
-        height: auto;
+        height: 220px;
         display: block;
-        margin: 15px auto;
+        margin: 20px auto;
         object-fit: cover;
+        box-sizing: border-box;
     } 
     .categories{
         width: 100%;
@@ -199,14 +200,14 @@ html{
         height: auto;
     }
     #product{
-        background: white !important;
+        background: white;
         width: 100%;
-        margin-left: -25px;
-        margin-right: -25px;
-        max-width: none;
+        
+        
+        
         box-sizing: border-box;
         height: auto;
-        padding: 20px 25px 30px;
+        padding: 20px 12px 30px;
     }
     body::after{
         content: none;
