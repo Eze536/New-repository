@@ -107,9 +107,7 @@ html{
 @media screen and (max-width: 600px){
     body{
         margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
+}
     .container{
         width: 100%;
         padding: 10px;
@@ -183,6 +181,13 @@ html{
         padding: 10px;
         box-sizing: border-box;
     }
+    .pic img{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-width: 0;
+        object-fit: contain;
+    }
     .product .bags{
         width: 100%;
         min-width: 0;
@@ -202,7 +207,7 @@ html{
     #product{
         background: white;
         width: 100%;
-        
+        margin: 0;
         
         
         box-sizing: border-box;
@@ -210,7 +215,7 @@ html{
         padding: 20px 12px 30px;
     }
     body::after{
-        content: none;
+        display: none;
     }
     .product{
         display: grid;
