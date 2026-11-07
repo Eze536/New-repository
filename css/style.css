@@ -211,14 +211,16 @@ html{
     }
     #product{
         background: white;
-        width: 100vw;
+        width: 100%;
         position: relative;
-        transform: translateX(-50%);
-        
+        min-height: 100vh;
+        left: auto;
+        transform: none;
+        margin: 0;
         
         box-sizing: border-box;
         
-        padding: 15px;
+        padding: 20px 10px;
     }
     body::after{
         display: none;
