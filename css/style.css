@@ -111,8 +111,10 @@ html{
         overflow-x: hidden;
 }
     .container{
-        width: 100%;
-        padding: 10px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        max-width: 1300px;
 }
 .me-image{
     width: 75px;
