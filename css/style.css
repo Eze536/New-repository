@@ -199,6 +199,8 @@ html{
         width: 100%;
         min-width: 0;
         height: auto;
+        margin: 0%;
+        padding: 0;
     }
     .product .bags .my-bag{
         width: 100%;
