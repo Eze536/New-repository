@@ -215,7 +215,7 @@ html{
         background-color: white;
         width: 100vw;
         position: relative;
-        min-height: 100vh;
+        
         left: auto;
         transform: none;
         margin-left: calc(50% - 50vw);
